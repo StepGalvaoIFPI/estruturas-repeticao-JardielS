@@ -18,10 +18,7 @@ public class Aluno {
         if (media > Aluno.mediaMaior) {
             Aluno.mediaMaior = media;
           }
-    //private static double mediaMaior(double media) {
-    //    if (media > Aluno.mediaMaior) {
-    //        return mediaMaior = media;
-    //    }
+
     }
     public double calcularMediaFinal() {
           this.setMediaFinal((this.getMedia()/Aluno.mediaMaior)*10);
